@@ -1,0 +1,44 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="cUFyAT)V5*VV5z6VMKSq">mySprite</variable><variable type="KIND_SpriteKind" id="eWpHNT2V4/k0Pr]#-cee">Player</variable><variable type="KIND_SpriteKind" id="t_Q|{mcoNIE7:.ncr7Rh">Projectile</variable><variable type="KIND_SpriteKind" id="m5B3fD72~r=4uGhi-e55">Food</variable><variable type="KIND_SpriteKind" id="nkln{XB*2#suKvcBH{In">Enemy</variable></variables><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="variables_set"><field name="VAR" id="cUFyAT)V5*VV5z6VMKSq">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . 3 3 3 . . . . . 
+. . . . . . . 3 3 3 3 3 . . . . 
+. . . . . . . 3 3 3 3 3 . . . . 
+. . . . . . . 3 3 3 3 3 . . . . 
+. . . . . . . . 3 3 3 . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="gamesettilemap"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="map"><shadow type="tilemap_image_picker"><field name="img">img`
+5 . . . . . . . . . 
+. . . . . 5 . . 5 . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . 5 . 
+. . 5 . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+`</field></shadow></value><next><block type="gamesettile"><value name="index"><shadow type="colorindexpicker"><field name="index">5</field></shadow></value><value name="img"><shadow type="tile_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . 5 . . . . . . . . . . 5 . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 5 
+. . 5 5 . . . . . . . . . . . 5 
+. . . . 5 . . . . . . . . . 5 . 
+. . . . . 5 5 5 . . . . . 5 . . 
+. . . . . . . . 5 5 5 5 5 . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="wall"><shadow type="toggleOnOff"><field name="on">false</field></shadow></value></block></next></block></next></block></statement></block></xml>
